@@ -15,10 +15,10 @@ type ChanceOfRain struct {
 }
 
 type Image struct {
-	Title  string `json:"title"`
-	URL    string `json:"url"`
-	Width  int    `json:"width"`
-	Height int    `json:"height"`
+	Title				 string `json:"title"`
+	Url			    	 string `json:"previewImageUrl"`
+	Width  				 int `json:"width"`
+	Height 				 int `json:"height"`
 }
 
 type Forecasts []struct {

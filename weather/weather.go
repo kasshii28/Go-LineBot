@@ -23,11 +23,9 @@ func GetWeather() (str string, err error) {
 	if err != nil {
 		return str, err
 	}
-	// fmt.Println(weather)
 
 	result := weather.ToS()
 	fmt.Println(result)
-	// result := weather.ExampleToS()
 
 	return result, nil
 }
@@ -85,7 +83,8 @@ func (w *Weather) ToS() string {
 	T06_12 := fmt.Sprintf("今日の朝から昼の降水確率：%s\n", w.Forecasts[0].ChanceOfRain.T0612)
 	T12_18 := fmt.Sprintf("今日の昼から夕方の降水確率：%s\n", w.Forecasts[0].ChanceOfRain.T1218)
 
-	image := fmt.Sprintf("%s\n", w.Forecasts[0].Image.URL)
-	result := area + body + max_cel + min_cel + T06_12 + T12_18 + image
+	image := fmt.Sprintf("%s\n", w.Forecasts[0].Image.Url)
+	result := area + body + max_cel + min_cel + T06_12 + T12_18
+	
 	return result
 }

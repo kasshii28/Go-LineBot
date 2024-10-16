@@ -31,7 +31,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	message := linebot.NewTextMessage(result)
+	message := linebot.NewTextMessage(message)
 
 	if _, err := bot.BroadcastMessage(message).Do(); err != nil {
 		log.Fatal(err)
