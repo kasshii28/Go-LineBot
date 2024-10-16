@@ -1,0 +1,136 @@
+{
+  "publicTime": "2024-10-16T12:00:00+09:00",
+  "publicTimeFormatted": "2024/10/16 12:00:00",
+  "publishingOffice": "大阪管区気象台",
+  "title": "大阪府 大阪 の天気",
+  "link": "https://www.jma.go.jp/bosai/forecast/#area_type=offices&area_code=270000",
+  "description": {
+      "publicTime": "2024-10-16T10:33:00+09:00",
+      "publicTimeFormatted": "2024/10/16 10:33:00",
+      "headlineText": "",
+      "bodyText": "　大阪府は、前線や湿った空気の影響で曇り、雨の降っている所があります。\n\n　１６日の大阪府は、前線や湿った空気の影響で曇り、夕方まで雨の降る所があるでしょう。\n\n　１７日の大阪府は、気圧の谷や湿った空気の影響でおおむね曇る見込みです。\n\n【近畿地方】\n　近畿地方は、前線や湿った空気の影響で雨が降っています。\n\n　１６日の近畿地方は、前線や湿った空気の影響で曇り、断続的に雨となるでしょう。南部を中心に雷を伴う所がある見込みです。\n\n　１７日の近畿地方は、気圧の谷や湿った空気の影響でおおむね曇り、南部を中心に雨の降る所があるでしょう。",
+      "text": "　大阪府は、前線や湿った空気の影響で曇り、雨の降っている所があります。\n\n　１６日の大阪府は、前線や湿った空気の影響で曇り、夕方まで雨の降る所があるでしょう。\n\n　１７日の大阪府は、気圧の谷や湿った空気の影響でおおむね曇る見込みです。\n\n【近畿地方】\n　近畿地方は、前線や湿った空気の影響で雨が降っています。\n\n　１６日の近畿地方は、前線や湿った空気の影響で曇り、断続的に雨となるでしょう。南部を中心に雷を伴う所がある見込みです。\n\n　１７日の近畿地方は、気圧の谷や湿った空気の影響でおおむね曇り、南部を中心に雨の降る所があるでしょう。"
+  },
+  "forecasts": [
+      {
+          "date": "2024-10-16",
+          "dateLabel": "今日",
+          "telop": "曇り",
+          "detail": {
+              "weather": "くもり　所により　夕方　まで　雨",
+              "wind": "北東の風",
+              "wave": "０．５メートル"
+          },
+          "temperature": {
+              "min": {
+                  "celsius": null,
+                  "fahrenheit": null
+              },
+              "max": {
+                  "celsius": "28",
+                  "fahrenheit": "82.4"
+              }
+          },
+          "chanceOfRain": {
+              "T00_06": "--%",
+              "T06_12": "--%",
+              "T12_18": "40%",
+              "T18_24": "20%"
+          },
+          "image": {
+              "title": "曇り",
+              "url": "https://www.jma.go.jp/bosai/forecast/img/200.svg",
+              "width": 80,
+              "height": 60
+          }
+      },
+      {
+          "date": "2024-10-17",
+          "dateLabel": "明日",
+          "telop": "曇時々晴",
+          "detail": {
+              "weather": "くもり　時々　晴れ",
+              "wind": "北東の風",
+              "wave": "０．５メートル"
+          },
+          "temperature": {
+              "min": {
+                  "celsius": "21",
+                  "fahrenheit": "69.8"
+              },
+              "max": {
+                  "celsius": "28",
+                  "fahrenheit": "82.4"
+              }
+          },
+          "chanceOfRain": {
+              "T00_06": "10%",
+              "T06_12": "10%",
+              "T12_18": "10%",
+              "T18_24": "10%"
+          },
+          "image": {
+              "title": "曇時々晴",
+              "url": "https://www.jma.go.jp/bosai/forecast/img/201.svg",
+              "width": 80,
+              "height": 60
+          }
+      },
+      {
+          "date": "2024-10-18",
+          "dateLabel": "明後日",
+          "telop": "曇時々晴",
+          "detail": {
+              "weather": "くもり　時々　晴れ",
+              "wind": "北東の風",
+              "wave": "０．５メートル"
+          },
+          "temperature": {
+              "min": {
+                  "celsius": "22",
+                  "fahrenheit": "71.6"
+              },
+              "max": {
+                  "celsius": "28",
+                  "fahrenheit": "82.4"
+              }
+          },
+          "chanceOfRain": {
+              "T00_06": "30%",
+              "T06_12": "30%",
+              "T12_18": "30%",
+              "T18_24": "30%"
+          },
+          "image": {
+              "title": "曇時々晴",
+              "url": "https://www.jma.go.jp/bosai/forecast/img/201.svg",
+              "width": 80,
+              "height": 60
+          }
+      }
+  ],
+  "location": {
+      "area": "近畿",
+      "prefecture": "大阪府",
+      "district": "大阪府",
+      "city": "大阪"
+  },
+  "copyright": {
+      "title": "(C) 天気予報 API（livedoor 天気互換）",
+      "link": "https://weather.tsukumijima.net/",
+      "image": {
+          "title": "天気予報 API（livedoor 天気互換）",
+          "link": "https://weather.tsukumijima.net/",
+          "url": "https://weather.tsukumijima.net/logo.png",
+          "width": 120,
+          "height": 120
+      },
+      "provider": [
+          {
+              "link": "https://www.jma.go.jp/jma/",
+              "name": "気象庁 Japan Meteorological Agency",
+              "note": "気象庁 HP にて配信されている天気予報を JSON データへ編集しています。"
+          }
+      ]
+  }
+}
